@@ -42,11 +42,11 @@ videoBtn.forEach( btn => {
     });
 });
 
-let swiper = new swiper(".review-slider", {
-    spaceBetween: 20,
+let swiper = new Swiper(".review-slider", {
+    spaceBetween: 50,
     loop: true,
     autoplay: {
-        delay: 2500,
+        delay: 2000,
         disableInteraction: false,
     },
     breakpoints: {
@@ -62,7 +62,7 @@ let swiper = new swiper(".review-slider", {
     },
 });
 
-let swiper2 = new swiper(".brand-slider", {
+let swiper2 = new Swiper(".brand-slider", {
     spaceBetween: 20,
     loop: true,
     autoplay: {
